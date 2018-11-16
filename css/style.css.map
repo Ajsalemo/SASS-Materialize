@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/components/_navbar.scss","../scss/utilities/_colors.scss","../scss/components/_parallax.scss","../scss/components/_footer.scss","../scss/containers/_containers.scss"],"names":[],"mappings":"AAMI;EACI,kBCHQ;;ADMZ;EACI,OCNa;;;ACDrB;EACI;;;AAGJ;EACI;;;ACJJ;EACI,kBFEwB;EEDxB,OFFiB;;;AGDrB;EACI;EACA;EACA;;;AAGJ;EACI","file":"style.css"}

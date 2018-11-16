@@ -1,0 +1,31 @@
+nav .nav-wrapper {
+  background-color: #fff;
+}
+nav .nav-font {
+  color: #000;
+}
+
+.parallax-image {
+  margin-bottom: 10em;
+}
+
+.parallax-container {
+  height: 440px;
+}
+
+.page-footer {
+  background-color: #e6e6e6;
+  color: #000;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */
