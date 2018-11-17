@@ -1,5 +1,6 @@
 .header, .header-name {
   font-style: italic;
+  font-weight: 100;
 }
 .image-name {
   font-style: italic;

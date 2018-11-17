@@ -22,7 +22,7 @@ $footer-background-lighten: lighten($footer-background, 30%);
 // ---------------------------- Typography classes --------------------- //
 
 .header {
-    @include italicized(italic);
+    @include italicized(italic, $weight: 100);
     &-name {
         @extend .header;
     }
