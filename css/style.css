@@ -1,3 +1,17 @@
+.header, .header-name {
+  font-style: italic;
+}
+.image-name {
+  font-style: italic;
+  font-size: 1.1em;
+  display: block;
+}
+
+.image-cite {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
 nav .nav-wrapper {
   background-color: #fff;
 }
@@ -14,7 +28,7 @@ nav .nav-font {
 }
 
 .page-footer {
-  background-color: #e6e6e6;
+  background-color: #cdcdcd;
   color: #000;
 }
 
@@ -26,6 +40,10 @@ body {
 
 main {
   flex: 1 0 auto;
+}
+
+.content-image {
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+// --------------------------------------------------------------------- //
+// Varialbes, colors, font-sizes, paddings or margins, etc
+// --------------------------------------------------------------------- //
+// -------------------------------- Variables -------------------------- //
+
+$color-primary: #fff;
+$font-color-primary: #000;
+
+$footer-background: gray;
+$footer-background-lighten: lighten($footer-background, 30%);
+
+// --------------------------------------------------------------------- //
+// ------------------------------- Mixins ------------------------------ //
+
+@mixin italicized($style, $size: null, $weight: null) {
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $size;
+}
+
+// --------------------------------------------------------------------- //
+// ---------------------------- Typography classes --------------------- //
+
+.header {
+    @include italicized(italic);
+    &-name {
+        @extend .header;
+    }
+}
+
+.image-name {
+    @include italicized(italic, 1.1em);
+    display: block;
+}
+
+.image-cite {
+    @include italicized(italic, 0.9em);
+}
+
+// --------------------------------------------------------------------- //
+// --------------------------------------------------------------------- //
