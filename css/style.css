@@ -43,9 +43,12 @@ main {
   flex: 1 0 auto;
 }
 
+a {
+  color: #ff3737;
+}
+
 .section li {
   list-style-type: none;
-  color: #000;
 }
 
 .content-image {
