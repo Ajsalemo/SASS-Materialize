@@ -16,7 +16,8 @@
 nav .nav-wrapper {
   background-color: #fff;
 }
-nav .nav-font {
+nav .nav-font,
+nav .material-icons {
   color: #000;
 }
 

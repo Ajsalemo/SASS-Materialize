@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
 
     <title>Sierra Nevada</title>
 </head>
@@ -18,15 +22,21 @@
     <nav>
         <div class="nav-wrapper" id="top">
             <a name="top"></a>
-            <a href="https://www.visitcalifornia.com/region/discover-high-sierra" class="brand-logo nav-font">
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <a href="https://www.visitcalifornia.com/region/discover-high-sierra"class="brand-logo nav-font">
                 <img src="assets/mountainlogo.jpg" alt="Mountain logo" width="64" height="50">
             </a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <ul class="right hide-on-med-and-down">
                 <li><a href="#content" class="nav-font">Content</a></li>
                 <li><a href="https://www.linkedin.com/in/ajssalemo/" class="nav-font">Contact</a></li>
             </ul>
         </div>
     </nav>
+
+    <ul class="sidenav" id="nav-mobile">
+        <li><a href="#content" class="nav-font">Content</a></li>
+        <li><a href="https://www.linkedin.com/in/ajssalemo/" class="nav-font">Contact</a></li>
+    </ul>
 
     <!----------------------------------------------------------------------------------------------------------------------->
     <!----------------------------------------------- Parallax container ---------------------------------------------------->
