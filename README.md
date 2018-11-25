@@ -7,4 +7,4 @@ Another attempt at creating a static webpage with a little bit of SASS - and exp
 
 
 
-[Imgur](https://i.imgur.com/YZiIeae.gifv)
+![Imgur](https://i.imgur.com/YZiIeae.gif)
