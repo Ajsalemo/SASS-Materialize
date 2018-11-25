@@ -7,4 +7,4 @@ Another attempt at creating a static webpage with a little bit of SASS - and exp
 
 
 
-![Sierra Nevada](https://media.giphy.com/media/B1YQ1EQa2CxAqo1GkI/giphy.gif)
+![Sierra Nevada](https://media.giphy.com/media/2wXt4DDygEIzJlm3Jm/giphy.gif)
